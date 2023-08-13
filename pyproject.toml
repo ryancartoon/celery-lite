@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "celery-lite"
+version = "0.1.0"
+description = "lite celery"
+authors = ["ryancartoon"]
+readme = "README.md"
+packages = [{include = "celery_lite"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kombu = "^5.3.1"
+redis = "^4.6.0"
+click = "^8.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

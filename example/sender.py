@@ -1,4 +1,4 @@
-from tasks.tasks import hello
+from example.tasks.tasks import hello
 
 
 def main():

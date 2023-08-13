@@ -94,7 +94,6 @@ class Worker:
         return q
 
     def stop(self):
-        breakpoint()
         if self.hub:
             self.hub.close()
 
